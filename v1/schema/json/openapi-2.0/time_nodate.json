@@ -1,0 +1,8 @@
+{
+    "type": "string",
+    "description": "The time, in the [Internet date and time `full-time` format](https://tools.ietf.org/html/rfc3339#section-5.6). Consider whether the `date_time` schema is more appropriate for your needs before you use this schema. Unlike RFC 3339, this type defines a practical if impractically precise length limit on the number of fractional seconds.",
+    "format": "paypal_time_nodate_v1",
+    "minLength": 9,
+    "maxLength": 64,
+    "pattern": "^([0-1][0-9]|2[0-3]):[0-5][0-9]:([0-5][0-9]|60)(\\.[0-9]+)?([Zz]|[+-][0-9]{2}:[0-9]{2})$"
+}

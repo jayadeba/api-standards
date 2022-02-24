@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "title": "Error",
+    "description": "The error details.",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The human-readable, unique name of the error."
+        },
+        "message": {
+            "type": "string",
+            "description": "The message that describes the error."
+        },
+        "debug_id": {
+            "type": "string",
+            "description": "The PayPal internal ID. Used for correlation purposes."
+        },
+        "details": {
+            "type": "array",
+            "description": "An array of additional details about the error.",
+            "items": {
+                "$ref": "./error_details.json"
+            }
+        },
+        "links": {
+            "type": "array",
+            "description": "An array of request-related [HATEOAS links](https://developer.paypal.com/api/rest/responses/#hateoas-links).",
+            "readOnly": true,
+            "items": {
+	        "readOnly": true,
+                "$ref": "link_description.json"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "message",
+        "debug_id"
+    ]
+}

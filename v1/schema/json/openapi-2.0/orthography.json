@@ -1,0 +1,162 @@
+{
+  "type": "string",
+  "title": "Orthography Type",
+  "description": "The orthography type based on the ISO 15924 names for scripts. Scripts are chosen based on [most widely used writing systems](https://www.worldatlas.com/articles/the-world-s-most-popular-writing-scripts.html).",
+  "pattern": "^[A-Z][a-z]{3}$",
+  "minLength": 4,
+  "maxLength": 4,
+  "x-enum": [
+    {
+        "value" : "Zyyy",
+        "description": "The orthography cannot be determined."
+    },
+    {
+        "value" : "Zzzz",
+        "description": "The orthography is unknown."
+    },
+    {
+        "value" : "Cyrl",
+        "description": "The Slavic languages alphabet. Used in eastern Europe."
+    },
+    {
+        "value" : "Arab",
+        "description": "The Arabic language alphabet."
+    },
+    {
+        "value" : "Armn",
+        "description": "The Armenian alphabet."
+    },
+    {
+        "value" : "Beng",
+        "description": "The Bengali alphabet. Used in eastern India."
+    },
+    {
+        "value" : "Cans",
+        "description": "The Unified Canadian Aboriginal Syllabics alphabet."
+    },
+    {
+        "value" : "Deva",
+        "description": "The Devanagari (Nagari) alphabet."
+    },
+    {
+        "value" : "Ethi",
+        "description": "The Ethiopic alphabet."
+    },
+    {
+        "value" : "Geor",
+        "description": "The Georgian (Mkhedruli and Mtavruli) alphabet."
+    },
+    {
+        "value" : "Grek",
+        "description": "The Greek alphabet."
+    },
+    {
+        "value" : "Gujr",
+        "description": "The Gujurati language alphabet. Used in western India."
+    },
+    {
+        "value" : "Guru",
+        "description": "The Gurmukhi alphabet. Used in the northern Indian state of Punjab."
+    },
+    {
+        "value" : "Hani",
+        "description": "The Han (Hanzi, Kanji, Hanja) alphabet."
+    },
+    {
+        "value" : "Hebr",
+        "description": "The Hebrew alphabet."
+    },
+    {
+        "value" : "Hira",
+        "description": "Japanese Hiragana."
+    },
+    {
+        "value" : "Hrkt",
+        "description": "Japanese syllabaries (alias for Hiragana + Katakana)."
+    },
+    {
+        "value" : "Java",
+        "description": "The Javanese alphabet."
+    },
+    {
+        "value" : "Jpan",
+        "description": "The Japanese (alias for Han + Hiragana + Katakana) alphabet."
+    },
+    {
+        "value" : "Kana",
+        "description": "An angular form of Japanese writing for words of foreign origin."
+    },
+    {
+        "value" : "Khmr",
+        "description": "The Khmer alphabet."
+    },
+    {
+        "value" : "Knda",
+        "description": "The Kannada alphabet. Used in the southern Indian state of Karnataka."
+    },
+    {
+        "value" : "Kore",
+        "description": "Korean (alias for Hangul + Han)."
+    },
+    {
+        "value" : "Laoo",
+        "description": "The Lao alphabet."
+    },
+    {
+        "value" : "Latn",
+        "description": "The Latin alphabet."
+    },
+    {
+        "value" : "Mlym",
+        "description": "The Malayalam alphabet. Used in the southern Indian state of Kerala."
+    },
+    {
+        "value" : "Mong",
+        "description": "The Mongolian alphabet."
+    },
+    {
+        "value" : "Mymr",
+        "description": "The Myanmar (Burmese) alphabet."
+    },
+    {
+        "value" : "Orya",
+        "description": "The Oriya (Odia) alphabet. Used in the eastern Indian state of Odisha."
+    },
+    {
+        "value" : "Sinh",
+        "description": "The Sinhala alphabet."
+    },
+    {
+        "value" : "Sund",
+        "description": "The Sundanese alphabet."
+    },
+    {
+        "value" : "Syrc",
+        "description": "The Syriac alphabet."
+    },
+    {
+        "value" : "Taml",
+        "description": "The Tamil alphabet. Used in the southern Indian state of Tamilnadu."
+    },
+    {
+        "value" : "Telu",
+        "description": "The Telugu language alphabet. Used in the southern Indian state of Andhra pradesh."
+    },
+    {
+        "value" : "Thaa",
+        "description": "The Thaana (Maldivian) alphabet."
+    },
+    {
+        "value" : "Thai",
+        "description": "The Thai alphabet. Used in Thailand."
+    },
+    {
+        "value" : "Tibt",
+        "description": "The Tibetan alphabet."
+    },
+    {
+        "value" : "Yiii",
+        "description": "The Yi alphabet."
+    }
+  ]
+}

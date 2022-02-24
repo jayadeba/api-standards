@@ -1,0 +1,396 @@
+{
+    "oneOf": [
+        {
+            "country_code": "AL",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "AR",
+            "validation_regex": "([A-HJ-NP-Z])?\\d{4}([A-Z]{3})?"
+        },
+        {
+            "country_code": "AT",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "AU",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "BE",
+            "validation_regex": "[1-9]\\d{3}"
+        },
+        {
+            "country_code": "BG",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "BN",
+            "validation_regex": "[A-Z]{2}[ ]?\\d{4}"
+        },
+        {
+            "country_code": "BR",
+            "validation_regex": "\\d{5}[\\s\\-]?\\d{3}"
+        },
+        {
+            "country_code": "BT",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "BY",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "CA",
+            "validation_regex": "[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z][ ]?\\d[ABCEGHJ-NPRSTV-Z]\\d"
+        },
+        {
+            "country_code": "CH",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "CL",
+            "validation_regex": "\\d{7}"
+        },
+        {
+            "country_code": "CN",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "CO",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "CR",
+            "validation_regex": "(\\d{4,5}|\\d{3}[\\s\\-]?\\d{4})"
+        },
+        {
+            "country_code": "CY",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "CZ",
+            "validation_regex": "\\d{3}[ ]?\\d{2}"
+        },
+        {
+            "country_code": "DE",
+            "validation_regex": "(0[1-9]|[1-9]\\d)\\d{3}"
+        },
+        {
+            "country_code": "DK",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "DO",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "EC",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "EE",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "ES",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "FI",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "FM",
+            "validation_regex": "(9694[1-4])(?:[ \\-]?(\\d{4}))?"
+        },
+        {
+            "country_code": "FO",
+            "validation_regex": "(FO[ \\-]?)?\\d{3}"
+        },
+        {
+            "country_code": "FR",
+            "validation_regex": "\\d{2}[ ]?\\d{3}"
+        },
+        {
+            "country_code": "GB",
+            "validation_regex": "(GIR[ ]?0AA|(?:(?:AB|AL|B|BA|BB|BD|BF|BH|BL|BN|BR|BS|BT|BX|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)(?:\\d[\\dA-Z]?[ ]?\\d[ABD-HJLN-UW-Z]{2}))|BFPO[ ]?\\d{1,4})"
+        },
+        {
+            "country_code": "GF",
+            "validation_regex": "9[78]3\\d{2}"
+        },
+        {
+            "country_code": "GL",
+            "validation_regex": "(DK-?)?39\\d{2}"
+        },
+        {
+            "country_code": "GP",
+            "validation_regex": "9[78][01]\\d{2}"
+        },
+        {
+            "country_code": "GR",
+            "validation_regex": "\\d{3}[ ]?\\d{2}"
+        },
+        {
+            "country_code": "HR",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "HU",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "ID",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "IE",
+            "validation_regex": "[\\dA-Z]{3} ?[\\dA-Z]{4}"
+        },
+        {
+            "country_code": "IL",
+            "validation_regex": "\\d{5}(\\d{2})?"
+        },
+        {
+            "country_code": "IN",
+            "validation_regex": "\\d{3}[ ]?\\d{3}"
+        },
+        {
+            "country_code": "IS",
+            "validation_regex": "\\d{3}"
+        },
+        {
+            "country_code": "IT",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "JP",
+            "validation_regex": "\\d{3}-?\\d{4}"
+        },
+        {
+            "country_code": "KG",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "KH",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "KR",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "KW",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "KZ",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "LA",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "LK",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "LT",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "LU",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "LV",
+            "validation_regex": "(LV[\\s\\-]?)\\d{4}"
+        },
+        {
+            "country_code": "MA",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "MC",
+            "validation_regex": "980\\d{2}"
+        },
+        {
+            "country_code": "MD",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "ME",
+            "validation_regex": "8\\d{4}"
+        },
+        {
+            "country_code": "MK",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "MN",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "MQ",
+            "validation_regex": "9[78]2\\d{2}"
+        },
+        {
+            "country_code": "MT",
+            "validation_regex": "[A-Z]{3}[ ]?\\d{2,4}"
+        },
+        {
+            "country_code": "MU",
+            "validation_regex": "\\d{3}(?:\\d{2}|[A-Z]{2}\\d{3})"
+        },
+        {
+            "country_code": "MV",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "MX",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "MY",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "NG",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "NL",
+            "validation_regex": "\\d{4}[ ]?[A-Z]{2}"
+        },
+        {
+            "country_code": "NO",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "NP",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "NZ",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "OM",
+            "validation_regex": "(?:PC )?\\d{3}"
+        },
+        {
+            "country_code": "PE",
+            "validation_regex": "((?:LIMA[ ]?\\d{1,2}|CALLAO[ ]?0?\\d)|[0-2]?\\d{1,4})"
+        },
+        {
+            "country_code": "PH",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "PL",
+            "validation_regex": "\\d{2}[\\s\\-]?\\d{3}"
+        },
+        {
+            "country_code": "PT",
+            "validation_regex": "\\d{4}([\\-]?\\d{3})?"
+        },
+        {
+            "country_code": "PY",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "RE",
+            "validation_regex": "9[78]4\\d{2}"
+        },
+        {
+            "country_code": "RO",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "RS",
+            "validation_regex": "\\d{5,6}"
+        },
+        {
+            "country_code": "RU",
+            "validation_regex": "[1-9]\\d{5}"
+        },
+        {
+            "country_code": "SA",
+            "validation_regex": "\\d{5}([\\-]?\\d{4})?"
+        },
+        {
+            "country_code": "SE",
+            "validation_regex": "\\d{3}[ ]?\\d{2}"
+        },
+        {
+            "country_code": "SG",
+            "validation_regex": "\\d{6}"
+        },
+        {
+            "country_code": "SI",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "SK",
+            "validation_regex": "\\d{3}[ ]?\\d{2}"
+        },
+        {
+            "country_code": "SM",
+            "validation_regex": "4789\\d"
+        },
+        {
+            "country_code": "SV",
+            "validation_regex": "(?:CP[ ]?)?[1-3][1-7][0-2]\\d"
+        },
+        {
+            "country_code": "TH",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "TR",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "TW",
+            "validation_regex": "\\d{3}([ \\-]?\\d{3}|\\d{2})?"
+        },
+        {
+            "country_code": "UA",
+            "validation_regex": "\\d{5}"
+        },
+        {
+            "country_code": "US",
+            "validation_regex": "\\d{5}([ \\-]?\\d{4})?"
+        },
+        {
+            "country_code": "UY",
+            "validation_regex": "[1-9]\\d{4}"
+        },
+        {
+            "country_code": "VA",
+            "validation_regex": "00120"
+        },
+        {
+            "country_code": "VE",
+            "validation_regex": "[1-8]\\d{3}([\\-]?[A-Z])?"
+        },
+        {
+            "country_code": "VN",
+            "validation_regex": "\\d{5}\\d?"
+        },
+        {
+            "country_code": "YT",
+            "validation_regex": "976\\d{2}"
+        },
+        {
+            "country_code": "ZA",
+            "validation_regex": "\\d{4}"
+        },
+        {
+            "country_code": "C2",
+            "validation_regex": "\\d{6}"
+        }
+    ]
+}

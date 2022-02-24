@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "title": "Full Name",
+    "description": "The full name of a person, for example, the name of a cardholder.",
+    "x-pattern": {
+        "$ref": "name_validation.json"
+    },
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The full representation of a name, for example, `Mr. J. Smith`.",
+            "minLength": 1,
+            "maxLength": 300
+        }
+    }
+}

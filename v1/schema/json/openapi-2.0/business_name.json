@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "title": "Business Name",
+    "description": "The business name of the party.",
+    "x-pattern": {
+        "$ref": "business_name_validation.json"
+    },
+    "properties": {
+        "business_name": {
+            "type": "string",
+            "description": "Required. The business name of the party.",
+            "maxLength": 300
+        },
+        "orthography": {
+            "$ref": "orthography.json"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "title": "Localized text",
+  "description": "A string of text and its designated language code.",
+  "properties": {
+    "language": {
+      "$ref": "language.json"
+    },
+    "text": {
+      "type": "string",
+      "description": "The localized text.",
+      "minLength": 1,
+      "maxLength": 255
+    }
+  },
+  "required": [
+    "language",
+    "text"
+  ]
+}

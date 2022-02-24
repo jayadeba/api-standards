@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "title": "Full Name with orthography",
+    "description": "Full Name of a person entity. Use this in cases like native name on a bank account.",
+    "allOf": [
+        {
+            "$ref": "full_name.json"
+        },
+        {
+            "properties": {
+                "orthography": {
+                    "description": "The script in which the name is provided like English, Kanji, etc.",
+                    "$ref": "orthography.json"
+                }
+            }
+        }
+    ],
+    "required": ["name"]
+}

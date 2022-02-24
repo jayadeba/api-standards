@@ -1,0 +1,980 @@
+{
+    "oneOf": [
+        {
+            "country_code": "AD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AX",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "AZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BB",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BJ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BQ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "BZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[－\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\uFF07\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CV",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "CZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "DE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "DJ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "DK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "DM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "DO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "DZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "EC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "EE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "EG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "EH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ER",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ES",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ET",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "FI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "FJ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "FK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "FM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "FO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "FR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GB",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GP",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GQ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0342-\\u0345\\u037A-\\u037D\\u037F\\u0384-\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03D7\\u03F3\\u1F00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FC4\\u1FC6-\\u1FD3\\u1FD6-\\u1FDB\\u1FDD-\\u1FEF\\u1FF2-\\u1FF4\\u1FF6-\\u1FFE]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "GY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "HK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[－\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\uFF07\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "HN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "HR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "HT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "HU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ID",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0591-\\u05C7\\u05D0-\\u05EA\\u05F0-\\u05F4\\uFB1D-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFB4F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IQ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "IT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "JE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "JM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "JO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "JP",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u3005\\uFF07\\u3041-\\u3096\\u3099-\\u309F\\u30A1-\\u30FF\\u31F0-\\u31FF\\uFF65-\\uFF9F\\uFF0D\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KP",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[－\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\uFF07\\u1100-\\u11FF\\u302E\\u302F\\u3131-\\u318E\\uAC00-\\uD7A3\\uFFA0-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "KZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LB",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LV",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "LY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ME",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ML",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MP",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MQ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MV",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MX",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "MZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NP",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "NZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "OM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "PY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "QA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "RE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "RO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "RS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "RU",
+            "validation_regex": "[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "RW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SB",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[－\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\uFF07\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SJ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ST",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SV",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SX",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "SZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TD",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TH",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TJ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TL",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TO",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TR",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TV",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[－\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\uFF07\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "TZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "UA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0300-\\u0341\\u0400-\\u0481\\u048A-\\u052F]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "UG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "US",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "UY",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "UZ",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VC",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VG",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VI",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VN",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "VU",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "WF",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "WS",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "XK",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "YE",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "YT",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ZA",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ZM",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "ZW",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[\\u0020\\u0027\\u002D\\u002E\\u002C]"
+        },
+        {
+            "country_code": "C2",
+            "validation_regex": "[A-Za-z\\xAA\\xBA\\xC0-\\xD6\\xD8-\\xF6\\u00F8-\\u024F\\u02B0-\\u02DD\\u02E0-\\u02E4\\u0300-\\u0341\\u0357-\\u0361\\u1E00-\\u1EFF\\u2C60-\\u2C7F\\uFB00-\\uFB06\\u0020\\u0027\\u002D\\u002E\\u002C]|[－\\uFF21-\\uFF3A\\uFF3E\\uFF40-\\uFF5A\\uFF07\\u3000\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|[\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD87E[\\uDC00-\\uDE1D]"
+        }
+    ]
+}

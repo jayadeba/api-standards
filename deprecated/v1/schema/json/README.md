@@ -9,8 +9,9 @@ Please refer to [documentation](../../../api-style-guide.md#common-types) to fin
 API developers are encouraged to use Common Types as-is. However, in cases where you need to extend a type, there are multiple ways to achieve this as described below. Note that each of the following approach comes with its own trade-off.
 
 1. Use composition. That is, `$ref` a Common Type in one of the properties of your type and add more properties you need. 
-2. Use [`allOf`](http://json-schema.org/latest/json-schema-validation.html#anchor82) keyword as described in [Structuring a complex schema](http://spacetelescope.github.io/understanding-json-schema/structuring.html#extending) using [JSON Schema Draft 4][1]. Keyword `allOf` in draft #4 replaces the keyword `extends` of draft #3. Note that not all tools recognize/treat the `allOf` keyword correctly at the time of writing this README (Dec 2014).
-3. Make a copy of Common Type and then add your own properties. This goes against the whole notion of `reuse`, however, it would work and tools would not have any problems with it. 
+2. Use [`extends`](http://tools.ietf.org/html/draft-zyp-json-schema-03#section-5.26) keyword from [JSON Schema Draft 3][7]. Indeed, not all code generation tools, documentation generation tools and parser/validation utilities recognize/treat the `extends` keyword correctly. Also, this is a draft #3 feature only. 
+3. Use [`allOf`](http://json-schema.org/latest/json-schema-validation.html#anchor82) keyword as described in [Structuring a complex schema](http://spacetelescope.github.io/understanding-json-schema/structuring.html#extending) using [JSON Schema Draft 4][1]. Keyword `allOf` in draft #4 replaces the keyword `extends` of draft #3. Note that not all tools recognize/treat the `allOf` keyword correctly at the time of writing this README (Dec 2014).
+4. Make a copy of Common Type and then add your own properties. This goes against the whole notion of `reuse`, however, it would work and tools would not have any problems with it. 
  
 
 [1]: http://json-schema.org/latest/json-schema-core.html "JSON Schema: core definitions and terminology"

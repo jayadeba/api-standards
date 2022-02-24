@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "title": "Locale",
+    "description": "The locale, which is made up of the [language tag](https://tools.ietf.org/html/bcp47#section-2), the [two-character ISO-3166-1 country code](/api/rest/reference/country-codes/), and the Olsen Internet Assigned Numbers Authority (IANA) time zone ID.",
+    "properties": {
+        "country_code": {
+            "$ref": "country_code.json"
+        },
+        "language": {
+            "$ref": "language.json"
+        },
+        "timezone": {
+            "$ref": "time_zone.json"
+        }
+    },
+    "required": [
+        "country_code",
+        "language"
+    ]
+}

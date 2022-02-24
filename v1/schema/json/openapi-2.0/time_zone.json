@@ -1,0 +1,7 @@
+{
+    "type": "string",
+    "description": "The time zone, in [Internet Assigned Numbers Authority (IANA) time zone (tz) database format](https://www.iana.org/time-zones). A valid value is `America/New_York` or `Etc/UTC`. Do not use ambiguous, non-qualified tz database values, such as `EST` or `GB`. Before you include this type in your interface, consider whether it is appropriate to convey time zone information with your type. At the time of display to the user, transform this value from UTC. Typically, this type is associated with user-preference APIs.",
+    "minLength": 1,
+    "maxLength": 127,
+    "format": "paypal_time_zone_v1"
+}

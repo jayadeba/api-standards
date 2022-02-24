@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "title": "Province",
+    "description": "The state or province information, including the [ISO 3166-2:2020](https://www.iso.org/standard/72483.html)-formatted state or province code. Useful for statistical, market region, or geolocation purposes.",
+    "properties": {
+        "province_code": {
+            "type": "string",
+            "description": "The [state or province code](/api/rest/reference/state-codes/), as defined by [ISO 3166-2:2020](https://www.iso.org/standard/72483.html).",
+            "maxLength": 6,
+            "minLength": 5,
+            "pattern": "^[A-Z]{2}-([A-Z]{2,3}|[0-9]{2,3})$"
+        },
+        "country_code": {
+            "$ref": "country_code.json"
+        },
+        "local_name": {
+            "type": "string",
+            "description": "The local province name. For example, California or Northern Ireland."
+        },
+        "latin_name": {
+            "type": "string",
+            "description": "The Latin province name, if the local name is in non-Latin script. For example, if local_name is `北京`, the latin_name is `Beijing`."
+        },
+        "abbreviation": {
+            "type": "string",
+            "description": "The abbreviation, if required. For example, `CA` for California."
+        }
+    },
+    "required": [
+        "province_code",
+        "country_code"
+    ]
+}

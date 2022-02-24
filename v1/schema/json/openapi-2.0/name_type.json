@@ -1,0 +1,18 @@
+{
+    "type": "string",
+    "title": "Name Type",
+    "description": "The name type.",
+    "pattern": "^[0-9A-Z_]+$",
+    "minLength": 1,
+    "maxLength": 255,
+    "x-enum": [
+        {
+            "value": "LEGAL",
+            "description": "The legal name of the user."
+        },
+        {
+            "value": "ALIAS",
+            "description": "The alias of the user. Not the legal name."
+        }
+    ]
+}

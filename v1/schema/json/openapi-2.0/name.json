@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "title": "Name",
+    "description": "The person name of the party.",
+    "x-pattern": {
+        "$ref": "name_validation.json"
+    },
+    "properties": {
+        "prefix": {
+            "type": "string",
+            "description": "The prefix, or title, to the party's name.",
+            "maxLength": 140
+        },
+        "given_name": {
+            "type": "string",
+            "description": "When the party is a person, the party's given, or first, name.",
+            "maxLength": 140
+        },
+        "surname": {
+            "type": "string",
+            "description": "When the party is a person, the party's surname or family name. Also known as the last name. Required when the party is a person. Use also to store multiple surnames including the matronymic, or mother's, surname. For surname, if a second surname is required in the region, e.g. in Mexico, it is recommended to use a double-space delimiter between the first surname and second surname, e.g. Rivera[ ][ ]Barientos, where [ ] represents a 0x20 space character.",
+            "maxLength": 140
+        },
+        "middle_name": {
+            "type": "string",
+            "description": "When the party is a person, the party's middle name. Use also to store multiple middle names including the patronymic, or father's, middle name.",
+            "maxLength": 140
+        },
+        "suffix": {
+            "type": "string",
+            "description": "The suffix for the party's name.",
+            "maxLength": 140
+        },
+        "full_name": {
+            "type": "string",
+            "description": "When the party is a person, the party's full name.",
+            "maxLength": 300
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "string",
+    "title": "Gender Type",
+    "description": "The gender type.",
+    "minLength": 1,
+    "maxLength": 255,
+    "pattern": "^[0-9A-Z_]+$",
+    "x-enum": [
+        {
+            "value": "MALE",
+            "description": "Indicates that the biological classification of the person is male."
+        },
+        {
+            "value": "FEMALE",
+            "description": "Indicates that the biological classification of the person is female."
+        },
+        {
+            "value": "NOT_APPLICABLE",
+            "description": "The gender is not male or female.<blockquote><strong>Note:</strong> Do not use this value for a type that is not set or understood.</blockquote>"
+        },
+        {
+            "value": "NOT_KNOWN",
+            "description": "The gender type is not known or reported, or is insufficient."
+        }
+    ]
+}

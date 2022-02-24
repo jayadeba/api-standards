@@ -1,0 +1,7 @@
+{
+    "type": "string",
+    "description": "The [JSON Web Signature (JWS)](https://www.rfc-editor.org/rfc/rfc7515.txt) token that represents signed content.",
+    "format": "paypal_common_jws_v1",
+    "pattern": "([A-Za-z0-9_-]+)[.]([A-Za-z0-9_-]+)[.]([A-Za-z0-9_-]+)",
+    "minLength": 5
+}

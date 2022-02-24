@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "title": "Person Name",
+    "description": "The name attributes for a person.",
+    "allOf": [
+        {
+            "$ref": "name.json"
+        },
+        {
+            "properties": {
+                "name_type": {
+                    "$ref": "name_type.json"
+                },
+                "orthography": {
+                    "$ref": "orthography.json"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "string",
+    "title": "Domain Name",
+    "description": "Internet domain name.",
+    "pattern": "^(?:\\w{1,63}\\.)+[A-Za-z]{2,6}$",
+    "minLength": 4,
+    "maxLength": 253
+}

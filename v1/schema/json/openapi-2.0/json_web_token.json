@@ -1,0 +1,8 @@
+{
+  "type": "string",
+  "description": "Describes a JSON Web Token (JWT). The value is either an [Unsecured JWT](https://tools.ietf.org/html/rfc7519#section-6) or a Secured JWT. A secured JWT is either a [JSON Web Signature](https://tools.ietf.org/html/rfc7515) or a [JSON Web Encryption](https://tools.ietf.org/html/rfc7516).",
+  "format": "paypal_common_jwt_v1",
+  "minLength": 3,
+  "maxLength": 2000,
+  "pattern": "^[A-Za-z0-9-_+\/]+[.](([A-Za-z0-9-_+\/]+[.]([A-Za-z0-9-_+\/]+)?)|(([A-Za-z0-9-_+\/]*[.]){2}[A-Za-z0-9-_+\/]+[.][A-Za-z0-9-_+\/]*))$"
+}

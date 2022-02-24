@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "title": "The Cloudevent envelope",
+    "description": "The Cloudevent envelope as specified in https://cloudevents.io/.",
+    "properties": {
+        "specversion": {
+            "type": "string",
+            "description": "The CloudEvent specification version that this event uses, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#specversion)",
+            "minLength": 1
+        },
+        "datacontenttype": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The Content type of the data attribute value, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#datacontenttype)."
+        },
+        "data": {
+            "type": ["object","string"],
+            "description": "The event payload, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#event-data)."
+        },
+        "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The identifier of the event, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#id). "
+        },
+        "time": {
+            "description": "The timestamp of the event occurrence, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#time).",
+            "$ref": "date_time.json"
+        },
+        "dataschema": {
+            "type": "string",
+            "minLength": 1,
+            "format": "uri",
+            "description": "The schema that data adheres to, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#dataschema)."
+        },
+        "subject": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The subject of the event, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#subject)."
+        },
+        "type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The value describing the type of event related to the originating occurrence, as defined in the [CloudEvents Specification](https://github.com/cloudevents/spec/blob/v1.0/spec.md#subject)."
+        },
+        "source": {
+            "type": "string",
+            "minLength": 1,
+            "format": "uri",
+            "description": "The event source, as defined in https://github.com/cloudevents/spec/blob/v1.0/spec.md#source-1."
+        }
+    },
+    "required": [
+        "specversion",
+        "id",
+        "type",
+        "source"
+    ]
+}

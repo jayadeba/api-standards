@@ -1,0 +1,8 @@
+{
+    "type": "string",
+    "description": "The universally unique identifier (UUID) in [Universally Unique Identifier (UUID) URN Namespace format](https://tools.ietf.org/html/rfc4122).",
+    "format": "paypal_uuid_v1",
+    "minLength": 36,
+    "maxLength": 36,
+    "pattern": "^[0-9a-zA-Z]{8}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{12}$"
+}

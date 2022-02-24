@@ -1,0 +1,31 @@
+{
+    "type": "string",
+    "title": "Phone Type",
+    "description": "The phone type.",
+    "x-enum": [
+        {
+            "value": "FAX",
+            "description": "A fax machine."
+        },
+        {
+            "value": "HOME",
+            "description": "A home phone."
+        },
+        {
+            "value": "MOBILE",
+            "description": "A mobile phone."
+        },
+        {
+            "value": "OTHER",
+            "description": "Other."
+        },
+        {
+            "value": "PAGER",
+            "description": "A pager."
+        },
+        {
+            "value": "WORK",
+            "description": "A work phone."
+        }
+    ]
+}

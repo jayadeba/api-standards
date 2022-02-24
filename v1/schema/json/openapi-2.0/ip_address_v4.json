@@ -1,0 +1,9 @@
+{
+    "type": "string",
+    "title": "IPv4 Address",
+    "description": "An IPv4 address. This address is in dotted-quad ABNF format, as defined in [RFC 2673, section 3.2. Textual Representation](https://tools.ietf.org/html/rfc2673).",
+    "format": "paypal_ipv4_address_v1",
+    "minLength": 7,
+    "maxLength": 15,
+    "pattern": "^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+}

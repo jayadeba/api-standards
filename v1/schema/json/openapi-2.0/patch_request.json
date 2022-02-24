@@ -1,0 +1,9 @@
+{
+    "type": "array",
+    "title": "Patch Request",
+    "description": "An array of JSON patch objects to apply partial updates to resources.",
+    "items": {
+        "$ref": "patch.json",
+        "x-publicDocsSchemaName": "patch"
+    }
+}

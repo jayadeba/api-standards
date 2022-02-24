@@ -1,0 +1,62 @@
+{
+    "type": "string",
+    "title": "Relationship Status",
+    "description": "The relationship status.",
+    "minLength": 1,
+    "maxLength": 255,
+    "pattern": "^[0-9A-Z_]+$",
+    "x-enum": [
+        {
+            "value": "MARRIED",
+            "description": "The relationship status is married."
+        },
+        {
+            "value": "SINGLE",
+            "description": "The relationship status is single."
+        },
+        {
+            "value": "ENGAGED",
+            "description": "The relationship status is engaged."
+        },
+        {
+            "value": "WIDOWED",
+            "description": "The relationship status is widowed."
+        },
+        {
+            "value": "SEPARATED",
+            "description": "The relationship status is separated."
+        },
+        {
+            "value": "DIVORCED",
+            "description": "The relationship status is divorced."
+        },
+        {
+            "value": "IN_A_RELATIONSHIP",
+            "description": "The relationship status is in a relationship."
+        },
+        {
+            "value": "LIVING_TOGETHER",
+            "description": "The relationship status is living together."
+        },
+        {
+            "value": "CIVIL_UNION",
+            "description": "The relationship status is civil union. For example, a civil union can be a common law, religious married, consensual, or customary union."
+        },
+        {
+            "value": "DOMESTIC_PARTNER",
+            "description": "The relationship status is domestic partner."
+        },
+        {
+            "value": "ANNULLED",
+            "description": "The relationship status is annulled, which indicates that the marriage contract was declared null and not to have existed."
+        },
+        {
+            "value": "UNKNOWN",
+            "description": "The relationship status is unknown, which indicates that the marital status is unknown or not reported or insufficient information is available about the marital status."
+        },
+        {
+            "value": "OTHER",
+            "description": "The relationship status is other."
+        }
+    ]
+}

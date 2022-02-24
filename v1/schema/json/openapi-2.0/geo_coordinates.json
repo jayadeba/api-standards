@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "title": "Geographic Coordinates",
+    "description": "The geographic latitude and longitude coordinates.",
+    "properties": {
+        "longitude": {
+            "type": "string",
+            "description": "The geographic longitude coordinate.",
+            "pattern": "^-?([1]?[1-7][1-9]|[1]?[1-8][0]|[1-9]?[0-9])\\.{1}\\d{1,6}"
+        },
+        "latitude": {
+            "type": "string",
+            "description": "The geographic latitude coordinate.",
+            "pattern": "^-?([1-8]?[1-9]|[1-9]0)\\.{1}\\d{1,6}"
+        }
+    },
+    "required": [
+        "longitude",
+        "latitude"
+    ]
+}
