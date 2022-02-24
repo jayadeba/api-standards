@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "title": "Cryptocurrency",
+    "description": "The details needed to represent a specific cryptocurrency balance, such as its symbol and quantity.",
+    "properties": {
+        "asset_symbol": {
+            "$ref": "cryptocurrency_symbol.json"
+        },
+        "quantity": {
+            "$ref": "cryptocurrency_quantity.json"
+        }
+    },
+    "required": [
+        "asset_symbol",
+        "quantity"
+    ]
+}

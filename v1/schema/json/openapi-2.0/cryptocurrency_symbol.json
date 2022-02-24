@@ -1,0 +1,37 @@
+{
+    "description": "The cryptocurrency symbol or code ticker options. Assigned by liquidity providers and exchanges.",
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 10,
+    "pattern": "^[0-9A-Za-z]{1,10}$",
+    "x-enum": [
+        {
+            "value": "BTC",
+            "description": "The ticker symbol for <b>Bitcoin</b>. https://en.wikipedia.org/wiki/Bitcoin."
+        },
+        {
+            "value": "ETH",
+            "description": "The ticker symbol for <b>Ethereum</b>. https://en.wikipedia.org/wiki/Ethereum."
+        },
+        {
+            "value": "BCH",
+            "description": "The ticker symbol for <b>Bitcoin Cash</b>. https://en.wikipedia.org/wiki/Bitcoin_Cash."
+        },
+        {
+            "value": "LTC",
+            "description": "The ticker symbol for <b>Litecoin</b>. https://en.wikipedia.org/wiki/Litecoin."
+        },
+        {
+            "value": "LINK",
+            "description": "The ticker symbol for <b>Chainlink</b>. https://en.wikipedia.org/wiki/Chainlink_(blockchain)."
+        },
+        {
+            "value": "SOL",
+            "description": "The ticker symbol for <b>Solana</b>. https://en.wikipedia.org/wiki/Solana_(blockchain_platform)."
+        },
+        {
+            "value": "MATIC",
+            "description": "The ticker symbol for Polygon."
+        }
+    ]
+}
