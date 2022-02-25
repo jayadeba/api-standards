@@ -1069,7 +1069,7 @@ The `allOf` keyword MUST only be used for the purposes listed here.
 The `allOf` keyword in JSON Schema SHOULD be used for extending objects. In draft-03, this was implemented with the `extends` keyword, which has been deprecated in draft-04. 
 
 ##### Example
-A common need is to extend a common type with additional fields. In this example, we will extend the [address](v1/schema/json/draft-04/address_portable.json) with a `type` field.
+A common need is to extend a common type with additional fields. In this example, we will extend the [address](common-components/v1/schema/json/openapi-2.0/address_portable.json) with a `type` field.
 
 ```
 "shipping_address": { "$ref": "v1/schema/json/draft-04/address_portable.json" }
@@ -1341,7 +1341,7 @@ Money is a standard type to represent amounts. The Common Type [`money.json`][15
 
 Percentages and interest rates are very common when dealing with money. One of the most common examples is annual percentage rate, or APR. These interest rates SHOULD always be represented according to the following rules:
 
-* The  Common Type [`percentage.json`](v1/schema/json/draft-04/percentage.json) MUST be used. This ensures that the rate is represented as a fixed-point decimal.
+* The  Common Type [`percentage.json`](common-components/v1/schema/json/openapi-2.0/percentage.json) MUST be used. This ensures that the rate is represented as a fixed-point decimal.
     * All validation rules defined in the type MUST be followed.
 * The value MUST be represented as a percentage.
     * **Example:** if the interest rate is 19.99%, the value returned by the API MUST be `19.99`.
@@ -1353,15 +1353,15 @@ Percentages and interest rates are very common when dealing with money. One of t
 
 The following common types MUST be used with regard to global country, currency, language and locale.
 
-* [`country_code`](v1/schema/json/draft-04/country_code.json)
+* [`country_code`](common-components/v1/schema/json/openapi-2.0/country_code.json)
   * All APIs and services MUST use the [ISO 3166-1 alpha-2](http://www.iso.org/iso/country_codes.htm) two letter country code standard.
-* [`currency_code`](v1/schema/json/draft-04/currency_code.json)
+* [`currency_code`](common-components/v1/schema/json/openapi-2.0/currency_code.json)
   * Currency type MUST use the three letter currency code as defined in [ISO 4217](http://www.currency-iso.org/). For quick reference on currency codes, see [http://en.wikipedia.org/wiki/ISO_4217](http://en.wikipedia.org/wiki/ISO_4217).
-* [`language.json`](v1/schema/json/draft-04/language.json)
+* [`language.json`](common-components/v1/schema/json/openapi-2.0/language.json)
  	* Language type uses [BCP-47](https://tools.ietf.org/html/bcp47) language tag.
-* [`locale.json`](v1/schema/json/draft-04/locale.json)
+* [`locale.json`](common-components/v1/schema/json/openapi-2.0/locale.json)
  	* Locale type defines the concept of locale, which is composed of `country_code` and `language`. Optionally, IANA timezone can be included to further define the locale.
-* [`province.json`](v1/schema/json/draft-04/province.json) 
+* [`province.json`](common-components/v1/schema/json/openapi-2.0/province.json) 
     * Province type provides detailed definition of province or state, based on [ISO-3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) country subdivisions, with room for variant local, international, and abbreviated representations of province names. Useful for logistics, statistics, and building state pull-downs for on-boarding.
 
 
@@ -1385,11 +1385,11 @@ When dealing with date and time, all APIs MUST conform to the following guidelin
 
 The following common types MUST be used to express various date-time formats:
 
-* [`date_time.json`](v1/schema/json/draft-04/date_time.json) SHOULD be used to express an RFC3339 `date-time`.
-* [`date_no_time.json`](v1/schema/json/draft-04/date_no_time.json) SHOULD be used to express `full-date` from RFC 3339.
-* [`time_nodate.json`](v1/schema/json/draft-04/time_nodate.json) SHOULD be used to express `full-time` from RFC3339.
-* [`date_year_month.json`](v1/schema/json/draft-04/date_year_month.json) SHOULD be used to express a floating date that contains only the **month** and **year**. For example, card expiry date (`2016-09`).
-* [`time_zone.json`](v1/schema/json/draft-04/time_zone.json) SHOULD be used for expressing timezone of a RFC3339 `date-time` or a `full-time` field.
+* [`date_time.json`](common-components/v1/schema/json/openapi-2.0/date_time.json) SHOULD be used to express an RFC3339 `date-time`.
+* [`date_no_time.json`](common-components/v1/schema/json/openapi-2.0/date_no_time.json) SHOULD be used to express `full-date` from RFC 3339.
+* [`time_nodate.json`](common-components/v1/schema/json/openapi-2.0/time_nodate.json) SHOULD be used to express `full-time` from RFC3339.
+* [`date_year_month.json`](common-components/v1/schema/json/openapi-2.0/date_year_month.json) SHOULD be used to express a floating date that contains only the **month** and **year**. For example, card expiry date (`2016-09`).
+* [`time_zone.json`](common-components/v1/schema/json/openapi-2.0/time_zone.json) SHOULD be used for expressing timezone of a RFC3339 `date-time` or a `full-time` field.
 
 
 <h1 id="error-handling">Error Handling</h1>
@@ -2608,22 +2608,22 @@ Please refer to [Patterns And Use Cases](patterns.md).
 [10]: http://tools.ietf.org/html/draft-zyp-json-schema-03 "draft-03"
 [11]: http://swagger.io/specification "OpenAPI"
 [12]: http://swagger.io/specification/#schemaObject "OpenAPI Schema"
-[13]: v1/schema/json/draft-04 "Common Types"
-[14]: v1/schema/json/draft-04/README.md "README"
-[15]: v1/schema/json/draft-04/money.json "money_json"
+[13]: common-components/v1/schema/json/openapi-2.0 "Common Types"
+[14]: common-components/v1/schema/json/openapi-2.0/README.md "README"
+[15]: common-components/v1/schema/json/openapi-2.0/money.json "money_json"
 [16]: https://github.com/googlei18n/libaddressinput/wiki/AddressValidationMetadata "i18n-api"
 [17]: https://www.w3.org/TR/html51/sec-forms.html#autofill-field "HTML 5.1 autofill"
 [18]: v1/schema/json/README_address.md "README Address"
-[19]: v1/schema/json/draft-04/address_portable.json "address_portable.json"
+[19]: common-components/v1/schema/json/openapi-2.0/address_portable.json "address_portable.json"
 [20]: https://www.informatica.com/content/dam/informatica-com/global/amer/us/collateral/other/addressdoctor-cloud-2_user-guide.pdf "Address Doctor"
 [21]: https://www.ietf.org/rfc/rfc3339.txt "RFC3339" 
 [22]: v1/schema/json/draft-04/error.json "error.json"
 [23]: http://tools.ietf.org/html/rfc6901 "JavaScript Object Notation (JSON) Pointer"
-[24]: v1/schema/json/draft-04/error_spec.json "error_spec.json"
-[25]: v1/schema/json/draft-04/error_spec_issue.json "error_spec_issue.json"
-[26]: v1/schema/json/draft-04/error_catalog.json "error_catalog.json"
-[27]: v1/schema/json/draft-04/error_catalog_item.json "error_catalog_item.json"
-[28]: v1/schema/json/draft-04/error_details.json "error_details.json"
+[24]: common-components/v1/schema/json/openapi-2.0/error_spec.json "error_spec.json"
+[25]: common-components/v1/schema/json/openapi-2.0/error_spec_issue.json "error_spec_issue.json"
+[26]: common-components/v1/schema/json/openapi-2.0/error_catalog.json "error_catalog.json"
+[27]: common-components/v1/schema/json/openapi-2.0/error_catalog_item.json "error_catalog_item.json"
+[28]: vcommon-components/v1/schema/json/openapi-2.0/error_details.json "error_details.json"
 [29]: http://techbus.safaribooksonline.com/book/web-development/web-services/9780596809140 "RESTful Web Services Cookbook"
 [30]: http://json.org/ "JSON"
 
