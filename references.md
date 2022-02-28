@@ -32,6 +32,7 @@ title: References
 * [Semantic Versioning 2.0.0](http://semver.org/)
 * [Returning Values from Forms: multipart/form-data - RFC 2388](https://www.ietf.org/rfc/rfc2388.txt)
 * [The MIME Multipart/Related Content-type - RFC 2387](https://tools.ietf.org/html/rfc2387)
+* [SCIM Specification](https://datatracker.ietf.org/doc/html/rfc7644#section-3.7)
 
 
 
